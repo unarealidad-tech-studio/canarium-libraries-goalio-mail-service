@@ -22,6 +22,9 @@
     "autoload": {
         "psr-0": {
             "GoalioMailService\\": "src/"
-        }
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
